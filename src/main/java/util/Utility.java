@@ -24,4 +24,8 @@ public class Utility {
             a[i] = new Random().nextInt(bound);
         }
     }
+
+    public static int getRandom(int bound) {
+        return new Random().nextInt(bound)+1;
+    }
 }
